@@ -20,9 +20,9 @@ Fonts are separated by a | */
   --paragraph-color-on-white: #dfa512; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #f96d82f9  ;
-  --nav-link-color: #dfa512;
+  --nav-link-color: white;
   --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
+  --nav-hover-link-color: #f96d82f9;
   --nav-hover-background-color: #9b3c92;
 }
 
@@ -39,6 +39,8 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  max-width: 500px;
+  max-height: 500px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
