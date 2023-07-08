@@ -252,4 +252,9 @@ nav {
     footer {
         margin-top: 25px;
     }
+    #hero-text {
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
