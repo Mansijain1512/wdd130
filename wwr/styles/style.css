@@ -101,15 +101,21 @@ h4 {
     width: 80px;
     padding-top: 10px;
 }
+.content {
+    padding-top: 2%;
+}
 .content h2 {
   color: #336e98;
   text-align: center;
+  padding-top: 2%;
 }
 .content p {
     color: #041928;
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .content {
     padding-left: 2.5%;
