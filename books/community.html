@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <title>PageTurner Picks | Community</title>
     <style>
         …
-    </style> 
-    <title>PageTurner Picks | Community</title>
+    </style>
 </head>
 <body>
   <div id="content">
@@ -37,9 +37,7 @@
             <img class="review-img" src="marriage.jpg" alt="The Perfect Marriage">
             <h2>The Perfect Marriage</h2>
             <h2>by Jeneva Rose</h2>
-            <h2>
-                <p>Average Rating    4.3 / 5</p>
-            </h2>
+            <p>Average Rating    4.3 / 5</p>
             <img class="rating" src="rating_reviews.png" alt="Rafting">
             <script class="link" src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer>
             </script>
@@ -47,16 +45,18 @@
             </div>   
         </div>
         <hr>
-        <section id="feedback">
-            <form action="/my-handling-form-page" method="post" id="newsletter-form"> 
-                <h1>Want news and updates about books?</h1>
-                <h2>Sign up for our newsletter.</h2>
-                    <label for="mail">Email:</label>
-                    <input type="email" id="mail" name="user_email" />
-                    <button type="submit">Notify me</button>
-            </form>
-        </section>
-    </main>
+    </main> 
+    <section id="feedback">
+    </section>
+        <form action="/my-handling-form-page" method="post"> 
+            <h2>Want news and updates about books?</h2>
+            <h2>Sign up for our newsletter.</h2>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="user_email" />
+            <button type="submit">Notify me</button>
+        </form>
+    
+    
     <footer>
         <p>PageTurner Picks &copy; 2023- Mansi Jain</p>
         <p><a href="site-plan.html">Site Plan</a></p>
@@ -74,5 +74,22 @@
         </div>
     </footer>
   </div> 
+  <script>
+    // get the feedback section element so we can do something with it.
+    const feedbackElement = document.getElementById('feedback');
+    // get the form so we can read what was entered in it.
+    const formElement = document.forms[0];
+    // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+    formElement.addEventListener('submit', function(e) {
+        // stop the form from doing the default action.
+        e.preventDefault();
+        // set the contents of our feedback element to a message letting the user know the form was submitted successfully.
+        feedbackElement.innerHTML = 'Hello! Thank you for your message. We will get back with you as soon as possible!';
+        // make the feedback element visible.
+        feedbackElement.style.display = "block";
+        // add a class to move everything down so our message doesn't cover it.
+        document.body.classList.toggle('moveDown');
+    });
+    </script> 
 </body>
 </html>
