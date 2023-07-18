@@ -143,7 +143,7 @@ main section {
 
 .books-img,
 .people-img {
-    width: auto;
+    width: 25%;
     height: auto;
     border: 5px solid #9b3c92;
     transition: transform .5s;
