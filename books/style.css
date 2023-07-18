@@ -33,16 +33,18 @@ header {
 footer {
     background-color: #f96d82f9;
     color: black;
-    padding: 25px 50px;
+    padding: 25px 25px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    word-spacing: 10px;
 }
 
 footer a {
     text-decoration: none;
     color: black;
+    font-size: medium;
 }
 
 nav a {
@@ -78,10 +80,12 @@ footer p:hover {
 #logo-link {
     justify-self: center;
     align-self: center;
+    padding-top: 5px;
 }
 
 footer .social img {
     padding-top: 15px;
+    width: 50px;
 }
 
 main section {
@@ -139,7 +143,7 @@ main section {
 
 .books-img,
 .people-img {
-    width: 25%;
+    width: auto;
     height: auto;
     border: 5px solid #9b3c92;
     transition: transform .5s;
