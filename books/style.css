@@ -50,6 +50,7 @@ nav a {
     color: black;
     text-decoration: none;
     padding: 35px;
+    font-size: medium;
 }
 
 nav {
@@ -75,7 +76,6 @@ footer p:hover {
 }
 
 #logo-link {
-    padding-top: 5px;
     justify-self: center;
     align-self: center;
 }
@@ -139,7 +139,7 @@ main section {
 
 .books-img,
 .people-img {
-    width: 60%;
+    width: 25%;
     height: auto;
     border: 5px solid #9b3c92;
     transition: transform .5s;
@@ -163,8 +163,8 @@ main section {
     border: 2px solid #9b3c92;
     box-sizing: content-box;
     text-decoration: none;
-    font-size: 18px;
-    padding: 15px 15px;
+    font-size: 15px;
+    padding: 5px 5px;
     background-color: #f96d82f9;
     z-index: 2;
     top: 15%;
