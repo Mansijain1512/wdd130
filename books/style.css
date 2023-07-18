@@ -143,7 +143,6 @@ main section {
     font-size: 18px;
     padding: 15px 15px;
     background-color: #f96d82f9;
-    transform: translate(-50%, -50%);
     z-index: 2;
     top: 15%;
     left: 50%;
@@ -224,4 +223,29 @@ button {
 
 .moveDown {
     margin-top: 3em;
+}
+
+/* Media Query for screens with a maximum width of 900px */
+@media screen and (max-width: 900px) {
+    /* Add your responsive styles here */
+    body {
+        font-size: 18px;
+    }
+
+    .home-title {
+        font-size: 1.5em;
+    }
+
+    #hero {
+        grid-template-columns: 1fr;
+    }
+
+    .home-images {
+        grid-template-columns: 1fr;
+    }
+
+    .books-img,
+    .people-img {
+        width: 80%;
+    }
 }
