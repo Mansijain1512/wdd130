@@ -243,6 +243,7 @@ hr {
 
 #recommends h1 {
     font-size: 2.5em;
+    margin-bottom: 70px;
 }
 
 .recommendations {
@@ -254,17 +255,21 @@ hr {
 
 .column {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(2, 1fr); 
 }
 
 .details {
     text-align: center;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .detail-img {
     width: 400px;
-    height: auto;
+    height: 600px;
     border: 5px solid #9b3c92;
+    margin-top: 40px;
 }
 
 .detail-img:hover {
@@ -275,16 +280,15 @@ hr {
     display: block;
     text-align: right;
     margin-top: 20px;
-    margin-right: 20px;
-    font-size: 1.2em;
-    color: black;
+    margin-right: 40px;
+    font-size: 2.2em;
+    color: #dfa512;
     text-decoration: none;
 }
 
 .more:hover {
     text-decoration: underline;
 }
-
 form {
     /* Center the form on the page */
     margin: 0 auto;
