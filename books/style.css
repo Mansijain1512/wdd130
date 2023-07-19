@@ -185,8 +185,9 @@ main section {
 }
 
 hr {
-    color: black;
-    border-width: 4px;
+    height: 2px;
+    border: none;
+    background-color: black;
     margin-top: 40px;
 }
 
