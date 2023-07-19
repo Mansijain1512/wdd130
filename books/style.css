@@ -376,4 +376,8 @@ button {
     .social img {
         width: 30px;
     }
+
+     .column {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
