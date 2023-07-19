@@ -250,7 +250,11 @@ hr {
 
 .column {
     display: grid;
+<<<<<<< HEAD
     grid-template-rows: repeat(6, 1fr); /* Six rows for each column */
+=======
+    grid-template-rows: repeat(3, 1fr); 
+>>>>>>> cc4f46d865edc13b391b7e306697f010e662a003
 }
 
 .details {
