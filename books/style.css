@@ -285,16 +285,50 @@ hr {
     text-decoration: underline;
 }
 
-/* ... your existing CSS code ... */
+#home {
+    text-align: center;
+    margin-top: 50px;
+}
 
-/* Add styles to the image container */
+.home-grid {
+    display: grid;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+#home h1 {
+    font-size: 2.5em;
+}
+
+.group-img {
+    width: 300px;
+    height: 200px;
+    border: 5px solid #9b3c92;
+}
+
+.comment {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #9b3c92;
+    margin-top: 20px;
+}
+
+.start {
+    display: block;
+    margin-top: 20px;
+}
+
+#review h1 {
+    font-size: 2.5em;
+}
+
 .img-container {
     position: relative;
     width: 400px; /* Adjust the width and height according to your image dimensions */
     height: 600px;
 }
 
-/* Apply styles to the front and back images */
+
 .review-front,
 .review-back {
     width: 100%;
@@ -303,7 +337,7 @@ hr {
     transition: transform 0.5s;
 }
 
-/* Initially, the back image should be rotated and hidden */
+
 .review-back {
     position: absolute;
     top: 0;
@@ -313,19 +347,26 @@ hr {
     opacity: 0;
 }
 
-/* On hover, rotate the front image and show the back image */
+
 .img-container:hover .review-front {
     transform: rotateY(180deg);
     opacity: 0;
 }
 
-/* On hover, rotate the back image and show it */
+
 .img-container:hover .review-back {
     transform: rotateY(0);
     opacity: 1;
 }
 
-/* ... your existing CSS code ... */
+#review h2 {
+    margin: 10px 0;
+}
+
+.rating {
+    width: 100px;
+    height: auto;
+}
 
 form {
     /* Center the form on the page */
@@ -420,7 +461,4 @@ button {
         width: 30px;
     }
 
-     .column {
-        grid-template-columns: repeat(2, 1fr);
-    }
 }
