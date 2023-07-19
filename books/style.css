@@ -330,6 +330,7 @@ button {
     left: 0;
     right: 0;
     padding: .5em;
+    display: none;
     /* make this element invisible until we are ready for it */
 }
 
