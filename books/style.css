@@ -250,11 +250,7 @@ hr {
 
 .column {
     display: grid;
-<<<<<<< HEAD
-    grid-template-rows: repeat(6, 1fr); /* Six rows for each column */
-=======
     grid-template-rows: repeat(3, 1fr); 
->>>>>>> cc4f46d865edc13b391b7e306697f010e662a003
 }
 
 .details {
@@ -262,8 +258,8 @@ hr {
 }
 
 .detail-img {
-    width: 70%%;
-    height: 70%;
+    width: 400px;
+    height: 500px;
     border: 5px solid #9b3c92;
 }
 
@@ -273,7 +269,7 @@ hr {
 
 .more {
     display: block;
-    text-align: center;
+    text-align: right;
     margin-top: 20px;
     font-size: 1.2em;
     color: #9b3c92;
