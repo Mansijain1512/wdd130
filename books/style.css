@@ -284,6 +284,49 @@ hr {
 .more:hover {
     text-decoration: underline;
 }
+
+/* ... your existing CSS code ... */
+
+/* Add styles to the image container */
+.img-container {
+    position: relative;
+    width: 400px; /* Adjust the width and height according to your image dimensions */
+    height: 600px;
+}
+
+/* Apply styles to the front and back images */
+.review-front,
+.review-back {
+    width: 100%;
+    height: 100%;
+    border: 5px solid #9b3c92;
+    transition: transform 0.5s;
+}
+
+/* Initially, the back image should be rotated and hidden */
+.review-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transform: rotateY(180deg);
+    opacity: 0;
+}
+
+/* On hover, rotate the front image and show the back image */
+.img-container:hover .review-front {
+    transform: rotateY(180deg);
+    opacity: 0;
+}
+
+/* On hover, rotate the back image and show it */
+.img-container:hover .review-back {
+    transform: rotateY(0);
+    opacity: 1;
+}
+
+/* ... your existing CSS code ... */
+
 form {
     /* Center the form on the page */
     margin: 0 auto;
