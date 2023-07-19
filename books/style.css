@@ -195,9 +195,9 @@ hr {
 }
 
 #top h1 {
-    color: #9b3c92;
-    font-size: 2.5em;
-    margin-top: 30px;
+    color: black;
+    font-size: 3.5em;
+    margin-top: 50px;
     margin-bottom: 10px;
 }
 
@@ -205,14 +205,17 @@ hr {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #top-img img {
-    width: 100%;
-    height: auto;
+    width: 70%;
+    height: 60%;
     border: 5px solid #9b3c92;
     transition: transform 0.3s;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
 }
 
 .book-link {
